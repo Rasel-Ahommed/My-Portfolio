@@ -103,3 +103,48 @@ a.btn:hover{
 
                                 /*Footer section css end*/
 
+                                /*Make web site responsive for tab*/
+
+@media(max-width:700px){
+h1 {
+    font-size: 26px;
+}
+.top-content{
+    float: left;
+    margin: 7px 37px;
+    font-size: 16px;
+}
+.profile img {
+    width: 52vw;
+    margin: 35px 110px;
+}
+section.dream-section {
+    margin-top: 180px;
+}
+.leftImg img {
+    margin-left: 30px;
+}
+.rightContent {
+    padding-top: 0;
+    font-size: 12px;
+}
+a.btn {
+    margin-left: 50%;
+    font-size: 11px;
+}
+section.Experience-area {
+    margin-top: -60%;
+}
+.experience-title {
+    margin-left: 30px;
+}
+.half-area {
+    width: 73%;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+}
+
+
+
+
