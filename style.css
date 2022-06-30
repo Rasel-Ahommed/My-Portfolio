@@ -6,6 +6,7 @@ body{
 section{
     height: 500px;
 }
+                                    /*top section css start*/
 .top-banner{
     background-image: url(asset/img/top-banner.png);
     background-repeat:no-repeat;
@@ -20,15 +21,41 @@ h1 {
 h1 span{
     color: #FFA40F;
 }
-button.btn {
+a.btn {
     padding: 8px 22px;
-    background: #ff764e;
+    background: #f4673e;
     border: none;
     border-radius: 5px;
     color: white;
-    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.btn:hover{
+    background: #e84212;
 }
 .profile img {
-    width: 35vw;
-    margin-left: 120px;
+    width: 31vw;
+    margin-left: 235px;
 }
+                                
+                                /*top section css end*/
+
+                                /*second sec css start*/
+.dream-section{
+    background-image: url(asset/img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.leftImg {
+    float: left;
+}
+.leftImg img {
+    width: 36vw;
+    margin-left: 80px;
+}
+.rightContent {
+    padding-top: 20px;
+}
+
+                                /*second sec css end*/
