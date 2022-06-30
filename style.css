@@ -18,7 +18,7 @@ section{
 h1 {
     font-size: 35px;
 }
-h1 span{
+.highlight{
     color: #FFA40F;
 }
 a.btn {
@@ -41,7 +41,7 @@ a.btn:hover{
                                 
                                 /*top section css end*/
 
-                                /*second sec css start*/
+                                /*second section css start*/
 .dream-section{
     background-image: url(asset/img/dream-bg.png);
     background-repeat: no-repeat;
@@ -58,4 +58,48 @@ a.btn:hover{
     padding-top: 20px;
 }
 
-                                /*second sec css end*/
+                                /*second sesectionc css end*/
+
+                                /*Experience section css start*/
+
+.half-area {
+    width: 36%;
+    float: left;
+    margin-left: 80px;
+    padding: 31px;
+    box-shadow: 10px 10px 40px grey;
+    height: 48%;
+    background: white;
+}
+.experience-title{
+    margin-left: 80px;
+    padding: 19px 0px;
+}
+.Experience-area{
+    background-image: url(asset/img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+#beginner{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;   
+}
+
+                                /*Experience section css end*/
+
+                                /*Footer section css start*/
+
+.footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+                                /*Footer section css end*/
+
